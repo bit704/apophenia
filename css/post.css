@@ -377,6 +377,21 @@
   margin-top: 0.25em;
 }
 
+/* 论文汇总页：列表项之间增加间隔 */
+.post-content .paper-list {
+  padding-left: 0;
+}
+.post-content .paper-list ul {
+  padding-left: 0;
+}
+.post-content .paper-list li {
+  margin-bottom: 0.75em;
+  line-height: 1.6;
+}
+.post-content .paper-list li:last-child {
+  margin-bottom: 0;
+}
+
 .post-content dl {
   padding: 0;
 }
